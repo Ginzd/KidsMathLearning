@@ -14,10 +14,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "ÁHDGAS", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "hiếu", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "ÁHDGAS", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "hiếu", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "ÁHDGAS", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "hiếu", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "ÁHDGAS", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "hiếu", Toast.LENGTH_SHORT).show();
+
     }
 }
