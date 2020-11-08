@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button = findViewById(R.id.button);
-        MyRunnable myRunnable = new MyRunnable();
-        myRunnable.start();
+//        MyRunnable myRunnable = new MyRunnable();
+//        myRunnable.start();
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,17 +33,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    private class MyRunnable extends Thread {
-        @Override
-        public void run() {
-            try {
-                Thread.sleep(2000);
-                imgLogo = findViewById(R.id.imageViewlogo);
-                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.demo);
-                imgLogo.startAnimation(animation);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-    }
+//    private class MyRunnable extends Thread {
+//        @Override
+//        public void run() {
+//            try {
+//                Thread.sleep(2000);
+//                imgLogo = findViewById(R.id.imageViewlogo);
+//                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.demo);
+//                imgLogo.startAnimation(animation);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        }
+//    }
 }
