@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         Button button = findViewById(R.id.button);
         MyRunnable myRunnable = new MyRunnable();
         myRunnable.start();
@@ -40,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
                 imgLogo = findViewById(R.id.imageViewlogo);
                 Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.demo);
                 imgLogo.startAnimation(animation);
-
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
