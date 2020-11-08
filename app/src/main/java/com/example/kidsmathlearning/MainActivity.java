@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Huy", Toast.LENGTH_SHORT).show();
-                Toast.makeText(MainActivity.this, "Huy", Toast.LENGTH_SHORT).show();
-                Toast.makeText(MainActivity.this, "Huy", Toast.LENGTH_SHORT).show();
-                Toast.makeText(MainActivity.this, "Huy", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Huy NGU VCC", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Huy NGU VCC", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Huy NGU VCC", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Huy NGU VCC", Toast.LENGTH_SHORT).show();
             }
         });
     }
