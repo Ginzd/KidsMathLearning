@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Hiếu", Toast.LENGTH_SHORT).show();
                 Toast.makeText(MainActivity.this, "Hiếu", Toast.LENGTH_SHORT).show();
                 Toast.makeText(MainActivity.this, "Hiếu", Toast.LENGTH_SHORT).show();
-                Toast.makeText(MainActivity.this, "Hiếu", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Hiếu ngu vcl", Toast.LENGTH_SHORT).show();
             }
         });
     }
